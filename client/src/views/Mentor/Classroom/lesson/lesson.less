@@ -1,0 +1,134 @@
+#c_lesson{
+    width: 80%;
+    padding-top: 5vh;
+    margin: 2vh auto 0 auto;
+    background-color: rgb(246, 246, 246);
+    padding: 20px;
+    padding-top: 50px;
+    border: 2px solid rgb(98, 172, 222);
+    margin-bottom: 50px;
+}
+
+hr{
+    width: 80%;
+}
+#c_lesson form hr{
+    width: 55%;
+}
+
+h3{
+    font-size: 20px;
+}
+
+#c_lesson form{
+    margin-top: 15px;
+    display: grid;
+    gap: 20px;
+}
+
+#c_lesson form div{
+    display: grid;
+    grid-template-columns: auto auto;
+    width: fit-content;
+    justify-content: center;
+    gap: 20px;
+    text-align: center;
+    margin: auto;
+}
+
+#c_lesson form .fst h4{
+    margin: auto;
+    font-size: 20px;
+}
+
+.fst #units{
+    margin: auto;
+    font-size: 20px;
+}
+
+#c_lesson form .textbox, #c_lesson form .dtextbox{
+    background-color: transparent;
+    border: 1px solid transparent;
+    box-shadow: 0px 0px 5px black;
+    border-radius: 5px;
+    min-width: 400px;
+    font-size: 16px;
+    padding: 3px;
+    padding-inline: 8px;
+}
+#c_lesson form .dtextbox{
+    max-height: 80px;
+    min-width: 500px;
+}
+
+#c_lesson form .submitbtn{
+    margin-top: 20px;
+    width: fit-content;
+    text-align: center;
+    border-radius: 10px;
+    border: 1px solid transparent;
+    background-color: rgb(98, 172, 222);
+    color: white;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-inline: auto;
+    animation: btnout forwards 400ms;
+}
+
+#c_lesson form .submitbtn:hover{
+    animation: btn forwards 400ms;
+}
+
+.selection h4{
+    font-size: 20px;
+    display: flex;
+    margin: auto;
+}
+
+.selection #units{
+    border: none;
+    outline:none;
+    font-size: 15px;
+    color: white;
+    background-color: rgb(98, 172, 222);
+    box-shadow: 0px 0px 100px black;
+}
+
+@keyframes btn{
+    0%{
+        padding-inline: 10px;
+        padding-block: 0px;
+        margin-bottom: 10px;
+    }
+    100%{
+        padding-inline: 20px;
+        padding-block: 5px;
+
+    }
+}
+@keyframes btnout{
+    0%{
+        padding-inline: 20px;
+        padding-block: 5px;
+    }
+    100%{
+        margin-bottom: 10px;
+        padding-inline: 10px;
+        padding-block: 0px;
+    }
+}
+
+.all{
+    display: grid;
+}
+
+.ms{
+    align-items: center;
+    display: grid;
+}
+
+.ms h4{
+    font-size: 15px;
+    margin-inline-end: 0px;
+    margin-top: 12px;
+}

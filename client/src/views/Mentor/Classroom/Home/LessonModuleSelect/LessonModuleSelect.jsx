@@ -42,6 +42,7 @@ export default function LessonModuleSelect({
             name: unitData.name,
           };
         });
+        console.log(options);
         setPlainOptions(options);
         setCheckedList(options);
       } else {
